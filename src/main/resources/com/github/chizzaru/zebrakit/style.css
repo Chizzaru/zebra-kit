@@ -9,3 +9,46 @@
     -fx-background-radius: 10 10 0 0;
     -fx-border-radius: 10 10 0 0;
 }
+
+.text-field-one {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: black;
+    -fx-background-color: transparent;
+}
+
+.primary-button {
+    -fx-background-color : #2F4C5B;
+    -fx-text-fill : white;
+}
+
+.primary-button:hover {
+    -fx-background-color : #166A7E;
+}
+
+/* Style the buttons within the Alert dialog */
+.alert .button {
+    -fx-background-color: #2F4C5B; /* Set your desired background color */
+    -fx-pref-height: 39;
+    -fx-font-weight : bold;
+}
+
+/* Style the buttons' text color */
+.alert .button .text {
+    -fx-fill: white; /* Set your desired text color */
+}
+
+/* Style the buttons when hovered */
+.alert .button:hover {
+    -fx-background-color: #166A7E; /* Set your desired hover background color */
+}
+
+.alert {
+    -fx-border-color : gray;
+}
+
+
+.alert .header-panel .label {
+    -fx-font-size: 16px; /* Change the font size */
+    -fx-font-weight: bold;
+    /* Add any other styles you want */
+}

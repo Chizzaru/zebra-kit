@@ -8,5 +8,6 @@ module com.github.chizzaru.zebrakit {
 
     opens com.github.chizzaru.zebrakit to javafx.fxml;
     exports com.github.chizzaru.zebrakit;
+    opens com.github.chizzaru.zebrakit.controller to javafx.fxml;
     exports com.github.chizzaru.zebrakit.controller;
 }
